@@ -1,5 +1,5 @@
 sudo apt-get install vim tmux python3 python3-pip -y
-pip install virtualenvwrapper
+pip3 install virtualenvwrapper
 
 cp .bash_aliases ~/.bash_aliases
 cp .bash_prompt ~/.bash_prompt
