@@ -6,6 +6,9 @@ This repo contains the configuration that I most prefer to use for python develo
 sudo apt-get update
 sudo apt-get install git
 git clone https://github.com/gilliamgray/myconfig.git
+
+cd myconfig
+source initial_setup.sh
 ```
 
 ## Usage
