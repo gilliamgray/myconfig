@@ -11,7 +11,7 @@ cd ~/.vim/bundle
 git clone git://github.com/altercation/vim-colors-solarized.git
 mv vim-colors-solarized ~/.vim/bundle/
 
-cd ~
+cd ~/myconfig
 cp .bash_aliases ~/.bash_aliases
 cp .bash_prompt ~/.bash_prompt
 cp .envrc ~/.envrc
