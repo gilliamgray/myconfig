@@ -1,5 +1,5 @@
 sudo apt-get install vim tmux python3 python3-pip -y
-pip3 install virtualenvwrapper
+pip3 install virtualenvwrapper awscli cookiecutter
 
 ## set up vim bundles
 # vim pathogen
