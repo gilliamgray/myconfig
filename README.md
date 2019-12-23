@@ -12,4 +12,16 @@ source initial_setup.sh
 ```
 
 ## Usage
+### Tmux
 TODO
+
+### VIM
+TODO
+
+
+## Optional Installs
+### AWS
+AWS CLI is automatically installed but to complete the configuration, run the following:
+```
+aws configure
+```
