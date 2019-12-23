@@ -5,7 +5,9 @@ export PATH=/usr/local/bin:$PATH
 export WORKON_HOME=$HOME/venvs
 mkdir -p $WORKON_HOME
 export PIP_REQUIRE_VIRTUALENV=true
-export VIRTUALENVWRAPPER_PYTHON=$(which python3)
+
+# in case there are issues with virtualenv
+# export VIRTUALENVWRAPPER_PYTHON=$(which python3)
 
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
   . /usr/local/bin/virtualenvwrapper.sh
